@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="dhl">
+    <attr name="dhl_icon_1" format="reference"/>
+    <attr name="dhl_icon_2" format="reference"/>
+    <attr name="dhl_icon_3" format="reference"/>
+    <attr name="dhl_icon_4" format="reference"/>
+
+    <attr name="dhl_text_1" format="string"/>
+    <attr name="dhl_text_2" format="string"/>
+    <attr name="dhl_text_3" format="string"/>
+    <attr name="dhl_text_4" format="string"/>
+    
+    
+</declare-styleable>
+
+
+</resources>

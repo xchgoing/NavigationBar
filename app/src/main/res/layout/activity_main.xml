@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+    <com.example.administrator.dhl
+        android:id="@+id/main_dhl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:dhl_icon_1="@drawable/dhl_selector"
+        app:dhl_icon_2="@drawable/dhl_selector"
+        app:dhl_text_1="t1"
+        app:dhl_text_2="t2"/>
+
+</LinearLayout>
